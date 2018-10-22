@@ -406,7 +406,7 @@ ARG BUILD_DATE
 ARG VCS_REF
 
 ### Release Stage
-FROM        build AS release
+FROM        base AS release
 MAINTAINER  Julien Rottenberg <julien@rottenberg.info>
 MAINTAINER  David Young <davidy@funkypenguin.co.nz>
 
